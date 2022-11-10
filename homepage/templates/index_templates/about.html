@@ -1,0 +1,158 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="shortcut icon" href="{% static 'images/nav_img.png' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+</head>
+
+<body>
+    <!-- Navbar -->
+
+    <div class="nav">
+        <a href="{% url 'homepage:index' %}"><img src="{% static 'images/nav_img.png' %}" alt=""></a>
+        <ul class="nav_ul">
+            <li class="dropdown"><a href="{% url 'homepage:about' %}">About Us</a>
+                <div class="dropdown-content">
+                    <a href="#" class="dropdown_div">Leadership</a>
+                    <a href="#" class="dropdown_div">Our Policies</a>
+                    <a href="#" class="dropdown_div">Community Handbook</a>
+                    <a href="#" class="dropdown_div">Board of Directors</a>
+                    <a href="#" class="dropdown_div">Contact Us</a>
+                </div>
+            </li>
+
+            <li><a href="{% url 'homepage:news' %}">News</a></li>
+            <li class="dropdown"><a href="{% url 'homepage:work' %}">Our Work</a>
+                <div class="dropdown-content">
+                    <a href="#" class="dropdown_div">Education</a>
+                    <a href="#" class="dropdown_div">Education Community</a>
+                    <a href="#" class="dropdown_div">Athletics</a>
+                </div>
+            </li>
+
+            <li class="dropdown"><a href="{% url 'homepage:academics' %}">Academics</a>
+                <div class="dropdown-content">
+                    <a href="#" class="dropdown_div">Summer Assignments</a>
+                    <a href="#" class="dropdown_div">Elementary School</a>
+                    <a href="#" class="dropdown_div">Middle/High School</a>
+                    <a href="#" class="dropdown_div">Portals</a>
+                </div>
+            </li>
+
+            <li class="dropdown"><a href="{% url 'homepage:resources' %}">Resources</a>
+                <div class="dropdown-content">
+                    <a href="#" class="dropdown_div">Uniform information</a>
+                    <a href="#" class="dropdown_div">Skyward Login</a>
+                    <a href="#" class="dropdown_div">Parent Resources</a>
+                </div>
+            </li>
+
+            <li class="dropdown"><a href="{% url 'homepage:getinvolved' %}">Get Involved</a>
+                <div class="dropdown-content">
+                    <a href="#" class="dropdown_div">Event</a>
+                    <a href="#" class="dropdown_div"> Calendar</a>
+                </div>
+            </li>
+            <li><button class="enroll_btn"><b>ENROLLMENT</b></button></li>
+        </ul>
+    </div>
+
+    <div class="about_home">
+        <div class="about_head">
+            <h1 class="head_white">About TIMES2</h1>
+            <p style="color: white;">Our school name, TIMES2 is an acronym, which means: To Improve Mathematics,
+                Engineering and Science
+                Studies.
+            </p>
+        </div>
+    </div>
+
+    <div>
+        <p class="p_white">TIMES² (Times squared) Academy is a K-12 accredited charter public school committed to
+            improve mathematics,
+            engineering and science<br> studies for urban youth in Providence, Rhode Island. TIMES² Academy in Rhode
+            Island,
+            prepares America’s next scientists, engineers and leaders<br> by providing a rigorous academic program
+            aligned
+            with the state's requirements.,<br><br>
+
+            Being the only K-12 STEM school in Rhode Island gives us the unique opportunity to prepare students for a
+            lifetime of STEM career <br>preparedness.<br>
+            -------------------------------------------------------------------------------------------
+        </p>
+
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <h3>FOUNDATION</h3>
+            <span class="grid-p"> TIMES² (Times squared ) Academy is a K-12 accredited charter public school<br>
+                committed to improve
+                mathematics, engineering and science studies for urban<br> youth in Providence, Rhode Island. TIMES²
+                Academy
+                prepares America’s next<br> scientists, engineers and leaders by providing a rigorous academic program
+                aligned<br> with the state's requirements.<br>
+
+
+                TIMES² Academy began in 1976 as an after-school and Saturday enrichment<br> program, with a dream of
+                minority children becoming the nation’s next great<br> scientists, engineers, and mathematicians. In
+                1998,
+                the dream transformed into<br> a formal 7-12 charter public school to provide a learning environment to
+                instruct,inspire and train students in STEM principles. </span>
+        </div>
+        <div>
+            <img src="{% static 'images/img_found.jpg'%}" alt="" style="width: 100%;">
+        </div>
+
+        <div>
+            <img src="{% static 'images/img_leader.jpg'%}" alt="" style="width: 100%;">
+        </div>
+
+        <div class="grid-item">
+            <h3>21ST CENTURY LEADERSHIP</h3>
+            <span class="grid-p"> TIMES² (Times squared ) Academy is a K-12 accredited charter public school<br>
+                committed to improve
+                mathematics, engineering and science studies for urban<br> youth in Providence, Rhode Island. TIMES²
+                Academy
+                prepares America’s next<br> scientists, engineers and leaders by providing a rigorous academic program
+                aligned<br> with the state's requirements.<br>
+
+
+                TIMES² Academy began in 1976 as an after-school and Saturday enrichment<br> program, with a dream of
+                minority children becoming the nation’s next great<br> scientists, engineers, and mathematicians. In
+                1998,
+                the dream transformed into<br> a formal 7-12 charter public school to provide a learning environment to
+                instruct, inspire and train students in STEM principles. </span>
+        </div>
+
+        <div class="grid-item">
+            <h3>PROFESSIONAL AFFILIATIONS</h3>
+            <span class="grid-p"> TIMES² (Times squared ) Academy is a K-12 accredited charter public school<br>
+                committed to improve
+                mathematics, engineering and science studies for urban<br> youth in Providence, Rhode Island. TIMES²
+                Academy
+                prepares America’s next<br> scientists, engineers and leaders by providing a rigorous academic program
+                aligned<br> with the state's requirements.<br>
+
+
+                TIMES² Academy began in 1976 as an after-school and Saturday enrichment<br> program, with a dream of
+                minority children becoming the nation’s next great<br> scientists, engineers, and mathematicians. In
+                1998,
+                the dream transformed into<br> a formal 7-12 charter public school to provide a learning environment to
+                instruct, inspire and train students in STEM principles. </span>
+        </div>
+        <div>
+            <img src="{% static 'images/img_profession.jpg'%}" alt="" style="width: 100%;">
+        </div>
+    </div>
+
+</body>
+
+</html>

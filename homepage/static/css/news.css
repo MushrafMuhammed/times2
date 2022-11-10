@@ -1,0 +1,8 @@
+.news_home {
+    width: 100%;
+    height: 600px;
+background-image: url('../images/news_img .jpg');
+    /* background-image: url('../images/about_img2.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
