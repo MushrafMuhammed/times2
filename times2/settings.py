@@ -29,7 +29,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '0.0.0.0',
-    'https://git.heroku.com/times2-clone.git', # your herokuapp url
+    'times2-clone.herokuapp.com', # your herokuapp url
     '127.0.0.1'
 ]
 
