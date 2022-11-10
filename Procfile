@@ -1,1 +1,1 @@
-web: gunicorn abc_company.wsgi --log-file -
+web: gunicorn times2.wsgi --log-file -
