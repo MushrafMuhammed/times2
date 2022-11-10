@@ -26,7 +26,12 @@ SECRET_KEY = 'django-insecure-^hb3!+203p3l5(g2aptsdh3u%$uc!#%muuja-yexma68vlgov9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+
+ALLOWED_HOSTS = [
+    '0.0.0.0',
+    'https://git.heroku.com/times2-clone.git', # your herokuapp url
+    '127.0.0.1'
+]
 
 
 # Application definition
